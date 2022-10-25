@@ -1,5 +1,5 @@
 const ACCESS_TOKEN =
-  "ya29.a0Aa4xrXN0z2bKwXxJHOiswZtsGcAGssLZMTycj3oliOJ1VKfxuDkj2MP7WqMpnhphbN0fE6UJVtsRxGalR8yVSyZPGp9XpaX-BVEDs1WZ9iBkxNd0grw0OJ4RI8eW7PRHWnoyyG3IQfZqJ9zIjquw-Uq7Mux0aCgYKATASARASFQEjDvL9fg85ZtXBiNooVPOe1xJ9tQ0163";
+  "ya29.a0Aa4xrXMnXVd4OJsGM8IOwQX4UiPMm_ok4hsVyK8nnlQI30qgOk1oMTZT5sfvGvM_6_g0vPTjwkk2NAU01UTj0pMGru_C75fhydz9rKdw3ho5oFbZxipaBfNynqM2pBkNceZQPIM3jAT45pWAMwCKq0BOeishaCgYKATASARMSFQEjDvL9addXKNuHI1sk7f7KVJfpdQ0163";
  
 const SHEET_ID = '1jZLisiV8p35ZTaphIPFQwYX81Y46mSlLyFbTXu1oqjw';
 
@@ -14,7 +14,6 @@ function registrarReceta() {
   const direccion = document.getElementById('direccion').value;
   const especie = document.getElementById('especie').value;
   const nombreAnimal = document.getElementById('nombre-animal').value;
-  const edad = document.getElementById('edad').value;
   const raza = document.getElementById('raza').value;
   const diagnostico = document.getElementById('diagnostico').value;
   const receta = document.getElementById('receta').value;
@@ -26,7 +25,7 @@ function registrarReceta() {
   
   let values = [];
   
-  let fila = [nombreDuenho, direccion, especie, nombreAnimal,edad, raza, diagnostico, receta, fecha];
+  let fila = [nombreDuenho, direccion, especie, nombreAnimal, raza, diagnostico, receta, fecha];
 
   values.push(fila);
   
