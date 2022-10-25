@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styleForm.css" />
+    <title>Formulario de registro</title>
+  </head>
+  <body>
+    <div class="container-principal">
+      <div id="form-box">
+        <h1>Recetario para veterinarios</h1>
+        <br />
+        <div>
+          <span>Nombre del dueño:</span>
+          <input
+            type="text"
+            id="nombre-duenho"
+            class="input"
+            placeholder="nombre del dueño"
+          />
+        </div>
+        <div>
+          <span>Direccion:</span>
+          <input
+            type="text"
+            class="input"
+            id="direccion"
+            placeholder="direccion"
+          />
+        </div>
+
+        <form>
+          <div>
+            <span>Especie:</span>
+            <select id="especie">
+              <option value="Perro">Perro</option>
+              <option value="Gato">Gato</option>
+              <option value="Hamster">Hamster</option>
+              <option value="Hamster">Aves</option>
+            </select>
+          </div>
+
+          <div>
+            <span>Nombre de la mascota:</span>
+            <input
+              type="text"
+              class="input"
+              id="nombre-animal"
+              placeholder="nombre del animal"
+            />
+          </div>
+
+          <div>
+            <span>Edad:</span>
+            <input type="number" class="input" id="edad" placeholder="edad" />
+          </div>
+          <div>
+            <span>Raza:</span>
+            <input type="text" class="input" id="raza" placeholder="raza" />
+          </div>
+
+          <div>
+            <span>Diagnostico:</span>
+            <input
+              type="text"
+              class="input"
+              id="diagnostico"
+              placeholder="diagnostico"
+            />
+          </div>
+
+          <div>
+            <span>Receta:</span>
+            <input type="text" class="input" id="receta" placeholder="receta" />
+          </div>
+
+          <div>
+            <span>Fecha:</span> <input type="date" class="input" id="fecha" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="contenedor-boton">
+      <div id="button" class="button" onclick="registrarReceta()">
+        Registrar receta
+      </div>
+      <a href="/" class="volver">Ir a la pagina princial</a>
+    </div>
+
+    <script src="/scriptsForm.js"></script>
+  </body>
+</html>

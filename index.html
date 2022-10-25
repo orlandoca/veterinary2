@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styleIndex.css" />
+    <link rel="html" href="/formulario.html" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Veterinaria San Isidro</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container container-nav">
+        <div class="logo">
+          <a href="/">Veteriana San Isidro </a>
+        </div>
+        <div class="container-link">
+          <button onclick="openMenu()" class="btn-menu btn">
+            <i class="bx bxs-food-menu"></i>
+          </button>
+          <ul class="hideMenu" id="menu">
+            <li><a href="#header" onclick="clickMenu()">Home</a></li>
+            <li><a href="#nosotros" onclick="clickMenu()">Quienes Somos</a></li>
+            <li><a href="#direccion" onclick="clickMenu()">Direccion</a></li>
+            <li><a href="#contacto" onclick="clickMenu()">Contacto</a></li>
+            <li><a href="/formulario.html">Registrar Receta</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="header">
+      <div class="container-header container" >
+        <h1>Bienvenido a Veterinaria San Isidro</h1>
+        <p>
+          Esté continuamente desde el principio en la posición de pensar en sus
+          criaturas, ya que cuidar a sus criaturas traerá alegría y sustento a
+          su vida.
+          Les damos la bienvenida a Veterinaria San Isidro. 
+          En nuestra clínica nos preocupamos de la salud de su animal de compañía, 
+          no sólo cuando está enfermo sino poniendo los medios humanos y técnicos a su disposición para 
+          que nunca lo esté. Contamos con la última tecnología y con un personal motivado
+          y dinámico con una amplia formación en el cuidado de su animal. 
+          Trabajando en equipo, veterinario y propietario, ofrecemos nuestros servicios a la atención 
+          de sus necesidades.Aquí podrás encontrar toda la información sobre nosotros, así como nuestro 
+          contacto, ubicación, instalaciones y demás datos de interés para que nos descubras. 
+          Contamos con amplitud de servicios para su mascota.
+          
+
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-nosotros container" id="nosotros">
+        <h2 class="subtitle">Quienes Somos</h2>
+        <p>
+          Somos una empresa paraguaya dedicada al cuidado veterinario. Con mas de 20 años en el mercado y a
+          través de un desarrollo técnico, orientado hacia las
+          necesidades no cubiertas de atencion a los animales  y con un
+          equipo humano constante dirigido a nuestros
+          representantes, hemos logrado posicionar nuestros servicios y productos
+          veterinarios en el mercado paraguayo.
+          Todo esto nos ha convertido en una de las principales veterianas 
+         y en el principal exportador de medicamentos
+          veterinarios del Pais.
+        </p>
+      </div>
+      <div class="container-direccion container" id="direccion">
+        <h2 class="subtitle">Direccion</h2>
+        <div id="map"></div>
+      </div>
+    </main>
+    <footer id="contacto">
+      <div class="container-futter container">
+        <div class="futter-info">
+          <div class="futter-contacto">
+            <ul>
+              <li>
+                <i class="bx bx-map-pin"></i>
+                <span>Ruta camino a itacua km5. Encarnacion-Paraguay</span>
+              </li>
+              <li><i class="bx bx-phone"></i><span>0995389937</span></li>
+              <li>
+                <i class="bx bxl-gmail"></i
+                ><span>veterianariasanisidro@gmail.com</span>
+              </li>
+              <li>
+                <i class="bx bx-world"></i
+                ><span>veterianariasanisidro.com.py </span>
+              </li>
+            </ul>
+          </div>
+          <div class="futter-redes">
+            <h3>Redes Sociales</h3>
+            <ul>
+              <li><i class="bx bxl-facebook-square"></i></li>
+              <li><i class="bx bxl-instagram"></i></li>
+              <li><i class="bx bxl-twitter"></i></li>
+              <li><i class="bx bxl-youtube"></i></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="futter-derechos-reservados">
+          <p>
+            Veteriana San Isidro ©2022 <br/>
+            Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </futter>
+    <script src="/javascripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+  </body>
+</html>

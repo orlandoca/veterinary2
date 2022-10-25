@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-image: url("/logo2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container-principal {
+  background-color: darkorange;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+
+select,
+input {
+  margin-bottom: 25px;
+  padding: 5px;
+  width: 300px;
+  border-radius: 3px;
+  border: 0;
+}
+
+span {
+  display: inline-block;
+  width: 100px;
+  align-items: center;
+  font-weight: bold;
+}
+
+#form-box {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  background-color: darkorange;
+}
+
+.button {
+  
+  background-color: darkturquoise;
+  position: relative;
+  top: 0;
+  text-align: center;
+  line-height: 24px;
+  width: 50%;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: auto;
+  height: 100%;
+
+}
+
+.volver{
+  width: 50%;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: auto;
+  background-color: red;
+  display: block;
+  height: 100%;
+
+}
+.contenedor-boton{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  display: flex;
+  width: 40%;
+  margin: auto;
+  height: 70px;
+}
