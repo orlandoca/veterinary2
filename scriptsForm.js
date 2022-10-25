@@ -1,5 +1,5 @@
 const ACCESS_TOKEN =
-  "ya29.a0Aa4xrXMnXVd4OJsGM8IOwQX4UiPMm_ok4hsVyK8nnlQI30qgOk1oMTZT5sfvGvM_6_g0vPTjwkk2NAU01UTj0pMGru_C75fhydz9rKdw3ho5oFbZxipaBfNynqM2pBkNceZQPIM3jAT45pWAMwCKq0BOeishaCgYKATASARMSFQEjDvL9addXKNuHI1sk7f7KVJfpdQ0163";
+  "ya29.a0Aa4xrXO402toU0fDCXzO_IYYjvo5-gbn_FpTpFtQ4SByw9mNgILe59nKMwpkuB4uw10eCqLX4K_rs95hd2jjz_MNdwco_YUGCnb1dXdx-PG5wL8iztWHy1i6zSYqzBF0rMAf0SbialQnIx3aPwqO5j4NielbaCgYKATASARISFQEjDvL9E11YPjAbQsg1q23n3ssZYw0163";
  
 const SHEET_ID = '1jZLisiV8p35ZTaphIPFQwYX81Y46mSlLyFbTXu1oqjw';
 
@@ -53,7 +53,7 @@ function registrarReceta() {
   });
   setTimeout(() => {
     location.reload()
-  },10000
+  },5000
   )
   
   //Limpiamos los campos del formulario para permitir cargar un nuevo gasto
